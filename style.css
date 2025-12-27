@@ -1,77 +1,80 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
 
-/* HEADER */
-.header {
-  background: #eaf6fb;
+body {
+  background: #f7f9fc;
   text-align: center;
-  padding: 12px 0;   /* reduced height */
+}
+
+/* HEADER */
+header {
+  background: #eaf4ff;
+  padding: 15px 0;
 }
 
 .logo {
-  width: 90px;       /* smaller logo */
+  height: 55px;
 }
 
 /* NAVIGATION */
 .nav {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  padding: 20px;
   background: #ffffff;
-  border-bottom: 1px solid #ddd;
 }
 
 .nav a {
-  padding: 12px 0;
-  text-align: center;
   text-decoration: none;
   color: #333;
-  font-size: 15px;
+  font-size: 16px;
 }
 
-/* HOME SECTION */
-.home {
-  text-align: center;
-  padding: 20px 16px;  /* reduced top gap */
+/* HERO SECTION */
+.hero {
+  padding: 30px 20px;
 }
 
-.home h1 {
-  font-size: 26px;
-  margin-bottom: 12px;
-  font-weight: 600;
+.hero h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
 }
 
-.home p {
-  font-size: 15px;
-  line-height: 1.7;
-  max-width: 680px;
-  margin: 0 auto 18px auto;  /* space below text */
+.hero p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  color: #444;
 }
 
-/* STUDENT IMAGE */
-.student-image img {
-  width: 200px;
-  margin-top: 5px;   /* image closer to text */
+.student {
+  width: 70%;
+  max-width: 280px;
 }
 
-/* MOBILE FINE TUNING */
-@media (max-width: 480px) {
-  .nav a {
-    font-size: 14px;
+/* DESKTOP VIEW */
+@media (min-width: 768px) {
+
+  .nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
   }
 
-  .home h1 {
-    font-size: 24px;
+  .hero {
+    max-width: 900px;
+    margin: auto;
   }
 
-  .student-image img {
-    width: 180px;
+  .student {
+    width: 250px;
   }
 }
-
 
 /* FOOTER */
 .footer {
