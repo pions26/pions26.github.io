@@ -15,7 +15,16 @@ header {
   background: #eaf4ff;
   padding: 15px 0;
 }
+.site-header {
+    text-align: center;
+    padding: 10px 0;
+}
 
+.site-logo {
+    height: 70px;      /* SAME on every page */
+    width: auto;
+    display: inline-block;
+}
 
 /* NAVIGATION */
 .nav {
@@ -85,6 +94,18 @@ header {
 
 
 /* About */
+
+.site-header {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.site-logo {
+    height: 70px;      /* SAME on every page */
+    width: auto;
+    display: inline-block;
+}
+
 
 .about-section {
   padding: 50px 20px;
@@ -174,6 +195,17 @@ margin-top: 0;
 
 /* Vision */
 
+.site-header {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.site-logo {
+    height: 70px;      /* SAME on every page */
+    width: auto;
+    display: inline-block;
+}
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -261,12 +293,24 @@ body {
 
 /* Courses */
 
+.site-header {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.site-logo {
+    height: 70px;      /* SAME on every page */
+    width: auto;
+    display: inline-block;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: #f7f9fc;
     color: #333;
 }
+
 
 /* MAIN SECTION */
 .flow-section {
@@ -348,6 +392,20 @@ footer {
 
 
 /* Courses */
+
+
+.site-header {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.site-logo {
+    height: 70px;      /* SAME on every page */
+    width: auto;
+    display: inline-block;
+}
+
+
 .courses {
   display: grid;
   grid-template-columns: 1fr;
@@ -411,6 +469,20 @@ button {
 
 /* Services */
 
+.site-header {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.site-logo {
+    height: 70px;      /* SAME on every page */
+    width: auto;
+    display: inline-block;
+}
+
+
+
+
 .table-section {
     max-width: 1100px;
     margin: auto;
@@ -473,6 +545,20 @@ button {
 }
 
 /* Faculty */
+
+.site-header {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.site-logo {
+    height: 70px;      /* SAME on every page */
+    width: auto;
+    display: inline-block;
+}
+
+
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -616,6 +702,20 @@ body {
 
 /* Enroll Now */
 
+
+
+.site-header {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.site-logo {
+    height: 70px;      /* SAME on every page */
+    width: auto;
+    display: inline-block;
+}
+
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -734,6 +834,19 @@ textarea {
 }
 
 /* Contact Section */
+
+.site-header {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.site-logo {
+    height: 70px;      /* SAME on every page */
+    width: auto;
+    display: inline-block;
+}
+
+
 .contact {
     max-width: 800px;
     margin: 30px auto;
