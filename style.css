@@ -736,8 +736,6 @@ textarea {
   }
 }
 
-
-
 /* Contact Section */
 .contact {
     max-width: 800px;
@@ -754,7 +752,7 @@ textarea {
 
 
 .contact a {
-    color: #ffcccb;
+    color: #2fa4e7;
     text-decoration: none;
     font-size: 32px;
     margin-bottom: 0;
@@ -770,8 +768,8 @@ textarea {
     }
 
 .contact-phone .icon {
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
 }
 
     
@@ -785,8 +783,8 @@ textarea {
 }
 
 .contact-mail .icon {
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
 }
 
 .contact-whatsapp {
@@ -799,8 +797,8 @@ textarea {
 }
 
 .contact-whatsapp .icon {
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
 }
 
 .contact-youtube {
@@ -813,8 +811,8 @@ textarea {
 }
 
 .contact-youtube .icon {
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
 }
 
 
@@ -828,8 +826,8 @@ textarea {
 }
 
 .contact-telegram .icon {
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
 }
 
 
@@ -843,8 +841,8 @@ textarea {
 }
 
 .contact-facebook .icon {
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
 }
 
 .contact-instagram {
@@ -857,8 +855,8 @@ textarea {
 }
 
 .contact-instagram .icon {
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
 }
 
 .contact-visit {
@@ -872,16 +870,11 @@ textarea {
 
 
   .contact-visit .icon {
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
   }
 
-    
-
-
-
-
-
+  
 /* Footer */
 .footer {
     background: #1a73e8;
