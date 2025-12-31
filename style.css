@@ -1155,7 +1155,12 @@ header.site-header > img.site-logo {
     margin: 0 auto;
     border: 3px solid red;
 } 
-/* DEBUG: outline ALL images */
-img {
-    outline: 3px solid red !important;
+
+  /* Final universal logo control */
+.site-header img {
+    height: 65px;
+    width: auto;
+    max-height: 65px;
+    display: block;
+    margin: 0 auto;
 }
