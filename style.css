@@ -1158,9 +1158,9 @@ header.site-header > img.site-logo {
 
   /* Final universal logo control */
 .site-header img {
-    height: 65px;
+    height: 100px;
     width: auto;
-    max-height: 65px;
+    max-height: 100px;
     display: block;
     margin: 0 auto;
 }
