@@ -16,9 +16,6 @@ header {
   padding: 15px 0;
 }
 
-.logo {
-  height: 120px;
-}
 
 /* NAVIGATION */
 .nav {
@@ -920,27 +917,11 @@ textarea {
   font-weight: 500;
 }
 
-.logo {
-  height: 120px;
-  margin: 0;
-  padding: 0;
-}
 
-
-.logo img {
-  width: 260px;
-  max-width: 600px;
-  height: 120px;
-  max-height: 320px;
-  display: block;
-}
 
 
 @media (max-width: 768px) {
  
-  .logo img {
-      max-height: 120px;
-  }
 
   .site-header {
   display: flex;
@@ -950,9 +931,12 @@ textarea {
 }
 
 .site-logo {
-  height: 55px;
+  height: 85px;
   width: auto;
+  display: block;
+  max-width: 100%;
 }
+  
 nav ul {
   display: flex;
   flex-wrap: wrap;
@@ -1008,10 +992,6 @@ nav ul li a {
     align-items: center !important;
   }
 
-  header img {
-    height: 55px !important;
-    width: auto !important;
-  }
 
   nav ul {
     display: flex !important;
