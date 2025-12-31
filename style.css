@@ -1155,3 +1155,7 @@ header.site-header > img.site-logo {
     margin: 0 auto;
     border: 3px solid red;
 } 
+/* DEBUG: outline ALL images */
+img {
+    outline: 3px solid red !important;
+}
