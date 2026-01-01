@@ -23,33 +23,49 @@ body {
     display: inline-block;
 }
 
-/* Announcement Bar Styling */
 .announcement-bar {
   width: 100%;
-  background: #0b5ed7;
-  color: #ffffff;
+  background-color: #0b5ed7;
   overflow: hidden;
-  font-size: 15px;
-  font-weight: 600;
-  padding: 10px 0;
+  white-space: nowrap;
 }
 
 .announcement-track {
   display: inline-flex;
+  align-items: center;
   gap: 60px;
-  white-space: nowrap;
   padding-left: 100%;
-  animation: scrollText 18s linear infinite;
+  animation: scrollText 15s linear infinite;
 }
 
+/* CLICKABLE LINKS */
+.announcement-track a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  pointer-events: auto;
+}
+
+.announcement-track a:hover {
+  text-decoration: underline;
+}
+
+/* PAUSE ON HOVER */
 .announcement-bar:hover .announcement-track {
   animation-play-state: paused;
 }
 
 @keyframes scrollText {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-100%); }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
+
+
 
 
 
