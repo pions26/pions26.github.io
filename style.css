@@ -898,27 +898,24 @@ textarea {
     padding: 20px;
 }
 
-.contact h2 {
+.contact-heading  {
     color: #1f4fa3;
     font-size: 60px;
-    margin-bottom: 0;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 
-.contact a {
-    color: #2fa4e7;
-    text-decoration: none;
-    font-size: 32px;
-    margin-bottom: 0;
-}
+
 
     .contact-phone .link {
         color: #2fa4e7;
         font-weight: 400px;
         display: flex;
         align-items: center;
-        gap: 0px;
+        gap: 15px;
         font-size: 16px;
+        margin-bottom: 15px;
     }
 
 .contact-phone .icon {
@@ -932,8 +929,9 @@ textarea {
         font-weight: 400px;
         display: flex;
         align-items: center;
-        gap: 0px;
+        gap: 15px;
         font-size: 16px;
+        margin-bottom: 15px;
 }
 
 .contact-mail .icon {
@@ -946,8 +944,9 @@ textarea {
         font-weight: 400px;
         display: flex;
         align-items: center;
-        gap: 0px;
+        gap: 15px;
         font-size: 16px;
+        margin-bottom: 15px;
 }
 
 .contact-whatsapp .icon {
@@ -960,8 +959,9 @@ textarea {
         font-weight: 400px;
         display: flex;
         align-items: center;
-        gap: 0px;
+        gap: 15px;
         font-size: 16px;
+        margin-bottom: 15px;
 }
 
 .contact-youtube .icon {
@@ -975,8 +975,9 @@ textarea {
         font-weight: 400px;
         display: flex;
         align-items: center;
-        gap: 0px;
+        gap: 15px;
         font-size: 16px;
+        margin-bottom: 15px;
 }
 
 .contact-telegram .icon {
@@ -990,8 +991,9 @@ textarea {
         font-weight: 400px;
         display: flex;
         align-items: center;
-        gap: 0px;
-        font-size: 16px;
+        gap: 15px;
+        font-size: 16px
+        margin-bottom: 15px;
 }
 
 .contact-facebook .icon {
@@ -1004,8 +1006,9 @@ textarea {
         font-weight: 400px;
         display: flex;
         align-items: center;
-        gap: 0px;
+        gap: 15px;
         font-size: 16px;
+        margin-bottom: 15px;
 }
 
 .contact-instagram .icon {
@@ -1018,8 +1021,9 @@ textarea {
         font-weight: 400px;
         display: flex;
         align-items: center;
-        gap: 0;
+        gap: 15px;
         font-size: 16px;
+        margin-bottom: 15px;
 }
 
 
