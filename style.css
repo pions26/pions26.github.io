@@ -1030,7 +1030,8 @@ body {
 
 /* LOGO */
 .logo img {
-  height: 50px;
+  height: 70px;
+  width: auto;
 }
 
 /* NAV */
@@ -1171,3 +1172,9 @@ body {
   transform: translateX(-50%);
 }
 
+.site-header {
+  background-color: #f7f9fc;
+  min-height: 150px;          /* 🔑 controls logo area height */
+  display: flex;
+  align-items: center;
+}
