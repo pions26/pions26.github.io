@@ -1013,6 +1013,14 @@ body {
   background-color: #f7f9fc;
 }
 
+.announcement {
+  background-color: #003366;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  padding: 8px 10px;
+}
+
 .nav-container {
   display: flex;
   align-items: center;
@@ -1075,7 +1083,7 @@ body {
     top: 70px;
     left: 0;
     width: 100%;
-    background-color: #f7f9fc;
+    background-color: #003366;
     display: none;
   }
 
@@ -1096,13 +1104,7 @@ body {
 }
 
 /* ANNOUNCEMENT BAR */
-.announcement {
-  background-color: #003366;
-  color: #ffffff;
-  text-align: center;
-  font-size: 14px;
-  padding: 8px 10px;
-}
+
 
 .announcement-text {
   white-space: nowrap;
