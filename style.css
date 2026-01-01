@@ -1157,13 +1157,17 @@ body {
   }
 }
 
-
+.hamburger {
+  margin-left: auto;
+}
 
 .nav-container {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: flex-end; /* hamburger stays right */
+  max-width: 1200px;
+  padding: 10px 16px;
 }
 
 .logo {
@@ -1177,4 +1181,5 @@ body {
   min-height: 150px;          /* 🔑 controls logo area height */
   display: flex;
   align-items: center;
+  justify-content: center;
 }
