@@ -81,7 +81,7 @@ body {
 
 .nav a {
   text-decoration: none;
-  color: #333;
+  color: #2fa4e7;
   font-size: 16px;
 }
 
@@ -128,7 +128,7 @@ body {
 
 /* FOOTER */
 .footer {
-  background: #2a67c7;
+  background: #1f4fa3;
   color: white;
   text-align: center;
   padding: 15px;
@@ -413,14 +413,7 @@ body {
     height: 40px;
 }
 
-/* FOOTER */
-footer {
-    text-align: center;
-    padding: 15px;
-    background: #1f4fa3;
-    color: white;
-    margin-top: 40px;
-}
+
 
 /* MOBILE VIEW */
 @media (max-width: 768px) {
@@ -610,29 +603,6 @@ body {
     color: #333;
 }
 
-.header {
-    text-align: center;
-    padding: 30px 10px;
-}
-
-.navbar {
-    text-align: center;
-    padding: 10px;
-    background: #ffffff;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.navbar a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #333;
-    font-weight: 500;
-}
-
-.navbar a.active {
-    color: #1a73e8;
-    font-weight: bold;
-}
 
 .faculty-section,
 .teaching-section {
@@ -680,13 +650,7 @@ body {
     font-size: 20px;
 }
 
-.footer {
-    background: #1f4fa3;
-    color: #ffffff;
-    text-align: center;
-    padding: 15px;
-    margin-top: 40px;
-}
+
 
 body {
     font-family: Arial, sans-serif;
@@ -782,29 +746,6 @@ body {
     margin-top: 5px;
 }
 
-.navbar {
-  background: #ffffff;
-  padding: 10px 0;
-}
-
-.nav-links {
-  list-style: none;
-  remember: 0;
-  padding: 0;
-  display: flex;              /* KEY LINE */
-  justify-content: center;    /* center horizontally */
-  gap: 20px;
-}
-
-.nav-links li {
-  display: inline-block;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
-}
 
 
 .register {
@@ -925,14 +866,8 @@ textarea {
   object-fit: contain;
 }
 
-/* Footer */
-.footer {
-    background: #1a73e8;
-    color: #1f4fa3;
-    text-align: center;
-    padding: 15px;
-    margin-top: 30px;
-}
+
+
 
 
 /* Mobile fix */
