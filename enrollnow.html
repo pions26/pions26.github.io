@@ -70,74 +70,61 @@ action="https://formspree.io/f/xyzrbdwy" method="POST">
   </div>
 
    
-    <div style="display:grid;grid-template-columns:160px 1fr;gap:15px;margin-bottom:15px;">
+    <div class="form-row">
     <label>Select Course</label>
     </div>
 
-      <div style="display:grid;grid-template-columns:160px 1fr;gap:15px;margin-bottom:15px;">
+    <div>
     <label>Regular Physics Course</label>
+      
+    <div class="checkbox-group">
+    <label><input type="checkbox"
+             name="course[]" value="School Board">
+    School Board Exams (Physics)</label>
+
+      <label><input type="checkbox"
+             name="course[]" value="UG Physics">
+        UG Physics</label>
+
+        <label><input type="checkbox"
+             name="course[]" value="PG Physics">
+        PG Physics</label>
     </div>
+    
 
-      
-      
-      <div style="display:grid;grid-template-columns:160px 1fr;gap:15px;margin-bottom:15px;">
-      <div class="course-option">
-     <label>
-    <input type="checkbox" name="subject[]" value="Mathematics for class IX">
-    School Board Exams - Physics
-  </label><br>
-
-  <label>
-    <input type="checkbox" name="subject[]" value="Mathematics for class X">
-     UG Physics
-  </label><br>
-
-   <label>
-    <input type="checkbox" name="subject[]" value="Mathematics for class X">
-     PG Physics
-  </label><br>
- </div>
-
-
-    <div style="display:grid;grid-template-columns:160px 1fr;gap:15px;margin-bottom:15px;">
+<div>
     <label>Competitive Physics Course</label>
-    </div>
+      
+    <div class="checkbox-group">
+    <label><input type="checkbox"
+             name="course[]" value="IIT-JEE">
+     IIT-JEE  Physics 2028</label>
 
-   <div style="display:grid;grid-template-columns:160px 1fr;gap:15px;margin-bottom:15px;">
-      <div class="course-option">
-    <label>
-    <input type="checkbox" name="subject[]" value="Science for class IX">
-    IIT-JEE Physics 2028
-  </label><br>
+   <label><input type="checkbox"
+             name="course[]" value="NEET">
+      NEET Physics 2028</label>
+ 
+ <label><input type="checkbox"
+             name="course[]" value="IIT-JAM">
+      IIT-JAM Physics 2028</label>
 
-  <label>
-    <input type="checkbox" name="subject[]" value="Science for class X">
-    NEET Physics 2028
-  </label><br>
 
-    
-  <label>
-    <input type="checkbox" name="subject[]" value="Physical Science for class XI">
-    IIT- JAM Physics 2028
-  </label><br>
+     <label><input type="checkbox"
+             name="course[]" value="GATE">
+      GATE Physics 2028</label>
 
-    <label>
-    <input type="checkbox" name="subject[]" value="Physical Science for class XII">
-    GATE Physics 2028
-  </label><br>
+       <label><input type="checkbox"
+             name="course[]" value="CSIR-NET">
+       CSIR-NET Physics Dec 2027</label>
+  
+  
+     <label><input type="checkbox"
+             name="course[]" value="PGT">
+       PGT Physics (KVS/NVS/EMRS/STATE PSC)</label>
+  </div>
 
-  <label>
-    <input type="checkbox" name="subject[]" value="Physical Science for class XII">
-    CSIR-NET Physics Dec 2027
-  </label><br>
-    
-  <label>
-    <input type="checkbox" name="subject[]" value="Competitive Entrance Exams">
-    PGT Physics (KVS/NVS/EMRS/State PSC)
-  </label><br>
-
-</div>
-<div style="display:grid;grid-template-columns:160px 1fr;gap:15px;margin-bottom:15px;">
+  
+<div class="message">
     <label>Message</label>
 <div class="form-group">
 <textarea placeholder="Write your message"></textarea><br>
