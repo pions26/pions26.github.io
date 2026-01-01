@@ -130,6 +130,43 @@ body {
 
 }
 
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding:20px;
+  }
+
+  .hero-image img {
+    width: 100;
+    max-width: 320px;
+    height: auto;
+    margin-top: 16px;
+  }
+
+  /* GLOBAL MOBILE SAFETY */
+@media (max-width: 768px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+}
+@media (max-width: 768px) {
+
+  .home-content {
+    flex-direction: column;   /* stack on mobile */
+    text-align: center;
+  }
+
+}
+
+
 
 /* About */
 
@@ -227,6 +264,12 @@ margin-top: 0;
   .divider {
     width: 60%;
     height: 2px;
+  }
+}
+@media (max-width: 768px) {
+  .divider {
+    width: 100%;        /* 🔑 full width on mobile */
+    padding: 0 16px;   /* breathing space */
   }
 }
 
@@ -778,6 +821,14 @@ body {
 .course-options {
   margin-top: 4px;
   margin-left: 0;
+}
+
+  @media (max-width: 768px) {
+  .course-options {
+    margin-left: 0;        /* 🔑 remove left shift */
+    margin-right: 0;
+    padding: 0 16px;       /* clean mobile spacing */
+  }
 }
 
 .course-options label
